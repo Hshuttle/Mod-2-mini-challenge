@@ -1,0 +1,25 @@
+* {
+  background-color: blueviolet;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main {
+}
+header {
+  text-align: center;
+}
+h1 {
+  color: rgb(243, 111, 243);
+}
+header p {
+  color: white;
+}
+h2 {
+  color: rgb(243, 111, 243);
+}
+article p {
+  color: rgb(243, 111, 243);
+}
+figure {
+  color: white;
+}
