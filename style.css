@@ -1,9 +1,11 @@
 * {
-  background-color: blueviolet;
+  background-color: darkslategray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 main {
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 header {
   text-align: center;
@@ -16,10 +18,30 @@ header p {
 }
 h2 {
   color: rgb(243, 111, 243);
+  border: 2px white;
+  border-style: solid;
 }
 article p {
   color: rgb(243, 111, 243);
 }
+article {
+  border: 2px white;
+  border-style: dotted;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+}
 figure {
   color: white;
+  border: 2px darkslategrey;
+  border-style: solid;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border-radius: 10px;
+}
+footer {
+  color: rgb(243, 111, 243);
+  text-align: center;
 }
