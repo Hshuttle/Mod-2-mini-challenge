@@ -1,73 +1,61 @@
-:root {
-  --headercolor: rgb(233, 116, 188);
-  --pcolor: white;
-  --bordercolor: white;
-}
-
 * {
   background-color: darkslategray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 main {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
 }
-
 header {
   text-align: center;
 }
-
 h1 {
-  color: var(--headercolor);
+  color: rgb(243, 111, 243);
 }
-
-p {
-  color: var(--pcolor);
+header p {
+  color: white;
 }
-
-article {
-  border-style: dotted;
-  border-color: var(--bordercolor);
-  width: 30%;
-  padding: 10px;
-  margin: 10px;
-}
-
 h2 {
-  color: var(--headercolor);
+  color: rgb(243, 111, 243);
+  border: 2px white;
   border-style: solid;
-  border-color: var(--bordercolor);
   position: relative;
   margin-top: -20px;
 }
-
+article p {
+  color: rgb(243, 111, 243);
+}
+article {
+  border: 2px white;
+  border-style: dotted;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+}
 figure {
-  color: var(--pcolor);
-  border-style: solid;
+  color: white;
   border: 0px;
+  border-style: solid;
   background-image: linear-gradient(
     rgba(232, 102, 236, 0.3) 0%,
     rgba(232, 102, 236, 0.6) 100%
   );
-  width: 80%;
+  border-radius: 10px;
 }
-
 footer {
-  color: var(--headercolor);
+  color: rgb(243, 111, 243);
   text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-    article {
+    main
   max-width: 45%;
 }
-}
 @media screen and (max-width: 768px) {
-    article {
+    main
   max-width: width: 90%;
-  display: inline-block;
 }
-}
+
